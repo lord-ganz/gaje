@@ -1,0 +1,1 @@
+workdir: bash start
