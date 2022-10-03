@@ -14,14 +14,14 @@ When you have installed this userbot, it means you are ready with the risks.
 ```
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/ArmanGG01/PyroKar-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RamPyro-Bot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ## 🖇 Generating Pyrogram String Session
     
 > Anda memerlukan APP ID & API HASH Telegram untuk mengambil sesi Pyrogram. ambil APP ID dan API Hash di my.telegram.org
 - Generate Session via <a href="https://repl.it/@mrismanaziz/stringen?lite=1&outputonly=1">Repl</a>
-- Generate Session via <a href="https://t.me/KarString_bot">Telegram String Generation Bot</a>
+- Generate Session via <a href="https://t.me/StringRamUbot">Telegram String Generation Bot</a>
 
 ## Okteto Deploy [Recomended if heroku not free]
   <a href="https://okteto.com">Click Here</a>
