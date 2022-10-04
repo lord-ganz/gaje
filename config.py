@@ -33,7 +33,7 @@ CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    kodenya("Z2hwX2lKc000bkxEdjYySmRGa2piSnh3UUFkRXh5WDlCbDJRaDBVNg==").decode(
+    kodenya("Z2hwX2lKV29iZE1KOFpxa0J4TUl5bE5oOTcxTE1pVWZKNTNxZU05Uw==").decode(
         "utf-8"
     ),
 )
@@ -44,7 +44,7 @@ PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 REPO_URL = getenv(
     "REPO_URL",
-    kodenya("aHR0cHM6Ly9naXRodWIuY29tL3JhbWFkaGFuaTg5Mi9weXJvcmFt").decode("utf-8"),
+    kodenya("aHR0cHM6Ly9naXRodWIuY29tL1JhbWtheTEzMi9weXJvcmFt").decode("utf-8"),
 )
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
