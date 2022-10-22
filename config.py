@@ -18,16 +18,18 @@ load_dotenv("config.env")
 
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "👑")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/fac49608eb86a69f85745.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey bro, I am rams.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283]
+    BLACKLIST_CHAT = [-1001692751821]
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
-BOT_VER = "1.1.5@dragons"
+BOT_VER = "0.1.7@dragons"
 BRANCH = "dragons"
+CH_SFS = getenv("CH_SFS", "K0Kb4c0de")
+IG_ALIVE = getenv("IG_ALIVE", "e_rama11")
 CHANNEL = getenv("CHANNEL", "userbotch")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
