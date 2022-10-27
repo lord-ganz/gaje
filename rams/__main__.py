@@ -18,7 +18,7 @@ MSG_ON = """
 🔥 **RamPyro-Bot Menyala** 🔥
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 🤖 **Userbot Version -** `{}`
-⌨️ **Ketik** `{}alive` **untuk Mengecheck Bot**
+⌨️ **Ketik** `{}rama` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 """
 
