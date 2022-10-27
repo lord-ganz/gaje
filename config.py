@@ -26,7 +26,7 @@ if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001692751821]
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
-BOT_VER = "0.1.7@dragons"
+BOT_VER = "0.3.1@dragons"
 BRANCH = "dragons"
 CH_SFS = getenv("CH_SFS", "K0Kb4c0de")
 IG_ALIVE = getenv("IG_ALIVE", "e_rama11")
