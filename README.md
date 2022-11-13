@@ -29,7 +29,7 @@ When you have installed this userbot, it means you are ready with the risks.
 ## 🏷 Support
 
 - Follow Channel [@userbotch](https://t.me/userbotch) untuk info Update bot 
-- Gabung Group [@ramsupportt](https://t.me/ramsupportt) untuk diskusi, pelaporan bug, dan bantuan tentang PyroKar-Userbot.
+- Gabung Group [@ramsupportt](https://t.me/ramsupportt) untuk diskusi, pelaporan bug, dan bantuan tentang PyroRam-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
