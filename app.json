@@ -1,13 +1,7 @@
 {
   "name": "RamPyro-Bot",
-  "description": "Pyrogram-Ubot Indonesia yang digunakan Untuk Bersenang Senang",
-  "keywords": [
-    "telegram",
-    "userbot",
-    "sharing"
-  ],
-  "repository": "https://github.com/ramadhani892/RamPyro-Bot",
-  "logo": "https://telegra.ph/file/21f94371e3056047db669.jpg",
+  "description": "[RamPyro-Bot] is a modular telegram user that runs on Python3 with a pyrogram library. Powered by RamPyro-Bot.",
+  "stack": "heroku-22",
   "env": {
     "API_ID": {
       "description": "Dapatkan API ID di web my.telegram.org Masukan yg APP ID Telegram",
@@ -28,25 +22,25 @@
     "HEROKU_APP_NAME": {
       "description": "Masukan Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": false
-   }
+    }
   },
   "addons": [
     {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
+      "plan": "heroku-postgresql"
     }
   ],
   "buildpacks": [
     {
       "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ],
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "free"
     }
   }
 }
