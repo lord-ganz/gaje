@@ -1,1 +1,1 @@
-workdir: bash start
+worker: bash start
