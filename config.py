@@ -19,8 +19,8 @@ load_dotenv("config.env")
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "👑")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/0e030c6e875cfad95cc01.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey bro, I am rams.")
-API_HASH = getenv("API_HASH")
-API_ID = getenv("API_ID")
+API_HASH = getenv("API_HASH", "1f217c5d594a79ce7576802dfa0688f1")
+API_ID = getenv("API_ID", "14200817")
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001692751821]
@@ -48,7 +48,7 @@ REPO_URL = getenv(
     "REPO_URL",
     kodenya("aHR0cHM6Ly9naXRodWIuY29tL3JhbWtheTEzMi9weXJvcmFtMQ==").decode("utf-8"),
 )
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQAhIHQAJEUEGCY3ZxtzUZRwfoDd0uOwmeMrUU_qTxQV6PvgS4Mqm-5medxJsuY4ee38_tNZnaN1SYgBTJ6hbAcIK3aZHDqSPtUozCSYS0Op9x1YABLt19bVr5ld409gcbnZIr1zDNm_LDOJQlbENDngmBKuUKt4GOeekxcjDL2uecTmd-4PshPISpAlf9TQBHLeSB5iWCqK_KmjJ5IpcLJSR7BMsINDQDqFFZpvkm5hwfkkUEaRjqCIAjLN1xWaSrsNAbQ4ZVOE2rNIw3awvMpPet7ZrC9kDgweqKw1jHXNk_OFv0b7YUHQezQAdmk_QxbnOyD_LesjqnyEv-CDD4J-lJtCggAAAAE968rKAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
